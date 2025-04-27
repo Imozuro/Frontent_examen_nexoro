@@ -50,6 +50,7 @@
     letter-spacing: 0%; /* Межбуквенный интервал */
     color: #1a1a1a; /* Цвет текста (как в вашем логотипе) */
     margin: 0px;
+    min-width: 154px;
     
 }
 .button_conteiner
