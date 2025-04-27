@@ -1,10 +1,9 @@
-
 footer
 {
     display: flex;
     flex-direction: column;
     width: auto;
-    margin: 0px 24px 0px 24px;
+    margin: 0px 24px 40px 24px;
     box-sizing: border-box; /* Чтобы border не увеличивал размеры */
 }
 .footer_content
@@ -26,7 +25,7 @@ footer
     font-weight: 300;
     font-size: 24px;
     line-height: 100%;
-    letter-spacing: 0.4px;
+    letter-spacing: 0px;
     color: #0D0102; /* Цвет текста (как в вашем логотипе) */
     width: 154px;
     height: 31px;
