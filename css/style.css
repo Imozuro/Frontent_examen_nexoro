@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Involve';
+    src: url("/css//font/ivolve/Involve-Regular.eot");
+    src: url('/css/font/ivolve/Involve-Regular.woff2')format('woff2');
+    src: url('/css/font/ivolve/Involve-Regular.woff')format('woff');
+    src: url('/css/font/ivolve/Involve-Regular.ttf')format('truetype');
+    font-weight: 500;
+    font-style: normal;}
+
+    
+@font-face {
+    font-family: 'Kudry';
+    src: url('/css/font/kudry/Kudry-WeirdText.eot');
+    src: url('/css/font/kudry/Kudry-WeirdText.woff2') format('woff2');
+    src: url('/css/font/kudry/Kudry-WeirdText.woff') format('woff');
+    src: url('/css/font/kudry/Kudry-WeirdText.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.top_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.top_line a 
+{
+    height: 24px;
+    width: 24px;
+    margin: 0px;
+}
+
+.logo{
+    display: flex;
+    margin-left: 65px;
+    margin-right: 65px;
+    justify-content: center;
+    align-items: center;
+    width: 248px;
+    height: 31px;
+    gap: 32px;
+}
+.logo h1{
+    font-family: 'Kudry'; /* Указываем шрифт Kudry, fallback на sans-serif */
+    font-weight: 300; /* Толщина шрифта */
+    font-size: 24px; /* Размер шрифта */
+    line-height: 100%; /* Высота строки */
+    letter-spacing: 0%; /* Межбуквенный интервал */
+    color: #1a1a1a; /* Цвет текста (как в вашем логотипе) */
+    margin: 0px;
+    
+}
+.button_conteiner
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 330px; /* Фиксированная ширина */
+    height: 56px;
+    gap: 40px; /* Расстояние между элементами (линии, лупа, текст) */
+    border-top: 0.5px solid #0D0102; /* Верхняя граница */
+    border-bottom: 0.5px solid #0D0102; /* Нижняя граница */
+}
+.button_conteiner2
+{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 330px; /* Фиксированная ширина */
+    height: 56px;
+    gap: 40px; /* Расстояние между элементами (линии, лупа, текст) */
+    border-top: 0.5px solid #0D0102; /* Верхняя граница */
+    border-bottom: 0.5px solid #0D0102; /* Нижняя граница */
+    
+}
+.nav_menu
+{
+    display: flex;
+    justify-content: center;
+    padding-top:24px ;
+    padding-bottom: 8px;
+    gap: 66px;
+}
+.nav_menu a{
+
+    font-family: 'Involve'; /* Шрифт Involve, fallback на sans-serif */
+    color: #0D0102; /* Цвет текста (как в вашем логотипе) */
+    font-weight: 500; /* Толщина шрифта */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 100%; /* Высота строки (эквивалентно 1) */
+    letter-spacing: 0%; /* Межбуквенный интервал (0% от размера шрифта) */
+    text-decoration: none;
+}
+
+
+
+
+

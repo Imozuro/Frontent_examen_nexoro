@@ -1,0 +1,261 @@
+
+@font-face {
+    font-family: 'Kudry';
+    src: url('/css/font/kudry/Kudry-WeirdText.eot');
+    src: url('/css/font/kudry/Kudry-WeirdText.woff2') format('woff2');
+    src: url('/css/font/kudry/Kudry-WeirdText.woff') format('woff');
+    src: url('/css/font/kudry/Kudry-WeirdText.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'InvolveMedium';
+    src: url('/css/font/involve/Medium/InvolveMedium.eot');
+    src: url('/css/font/involve/Medium/InvolveMedium.woff2') format('woff2');
+    src: url('/css/font/involve/Medium/InvolveMedium.woff') format('woff');
+    src: url('/css/font/involve/Medium/InvolveMedium.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'InvolveReg';
+    src: url('/css/font/involve/regular/Involve-Regular.eot');
+    src: url('/css/font/involve/regular/Involve-Regular.woff2') format('woff2');
+    src: url('/css/font/involve/regular/Involve-Regular.woff') format('woff');
+    src: url('/css/font/involve/regular/Involve-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0px 24px 0px 24px;
+    box-sizing: border-box; /* Чтобы border не увеличивал размеры */
+}
+.footer_content
+{
+    display: flex;
+    flex-direction: row;
+    min-width: 1392px;
+    width: 100%;
+    height: 258px;
+    box-sizing: border-box; /* Чтобы border не увеличивал размеры */
+    border-bottom: 0.5px solid #0D0102;
+}
+
+
+/* LOGO_FOOTER */
+
+.logo_text{
+    font-family: 'Kudry'; /* Указываем шрифт Kudry, fallback на sans-serif */
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.4px;
+    color: #0D0102; /* Цвет текста (как в вашем логотипе) */
+    width: 154px;
+    height: 31px;
+    gap: 10px;
+    text-decoration: none; /* Убираем подчеркивание */
+    display: flex;
+    justify-content:start; /* Горизонтальное выравнивание */
+    align-items:center; /* Вертикальное выравнивание */
+    margin: 0px 11px 0px 11px;
+}
+
+
+/* SITEMAP_FOR_USERT */
+
+.footer_nav_div
+{
+    display: flex;
+    flex-direction: row;
+    width: 54.55%;
+    height: 258px;
+    box-sizing: border-box; /* Чтобы padding и border не увеличили размеры */
+    /* Border */
+    border-right: 0.5px solid #0D0102;
+    border-left: 0.5px solid #0D0102;
+    /* Padding */
+    padding-right: 11px;
+    padding-left: 11px;
+    /* Inner alignment (предположение: центрирование содержимого) */
+    justify-content: space-between;
+    align-items:flex-start; /* Вертикальное выравнивание */
+}
+footer h4 {
+    font-family: 'InvolveMedium', sans-serif; /* Кастомный шрифт с запасным вариантом */
+    font-weight: 500; /* Вес шрифта */
+    font-size: 24px; /* Размер шрифта */
+    line-height: 100%; /* Высота строки = размеру шрифта (24px) */
+    letter-spacing: -1px; /* Межбуквенный интервал */
+    display: flex;
+    justify-content:start; /* Горизонтальное выравнивание */
+    align-items:center; /* Вертикальное выравнивание */
+    margin: 0px 0px 16px 0px;
+}
+.footer_nav_div a { 
+    font-family: 'InvolveReg', sans-serif; /* Кастомный шрифт с запасным вариантом */
+    font-weight: 400; /* Вес шрифта */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 100%; /* Высота строки = размеру шрифта (16px) */
+    letter-spacing: -0.3px; /* Межбуквенный интервал */
+    text-decoration: none;
+    color: #0D0102; /* Цвет текста (как в вашем логотипе) */
+}
+.list_nav
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+/* FORM */
+
+.footer_form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center; /* Горизонтальное выравнивание */
+    align-items:center; /* Вертикальное выравнивание */
+    width: 33%;
+    height: 250px;
+    gap: 8px;
+}
+.footer_form h4
+{
+    margin: 0px;
+    width: 300px;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+.footer_form form{
+    display: flex;
+    flex-direction: column;
+    justify-content:center; /* Горизонтальное выравнивание */
+    align-items:center; /* Вертикальное выравнивание */
+    gap: 8px;
+}
+
+.Input_field
+{
+    width: 300px;
+    height: 37px;
+    border-bottom-width: 0.5px;
+    justify-content: space-between;
+    padding: 8px;
+    box-sizing: border-box;
+    /* Убираем стандартные границы, оставляем только нижнюю */
+    border: none;
+    border-bottom: 0.5px solid #0D0102; /* Цвет линии, можно изменить */
+    /* Типографика (из предыдущих вопросов) */
+    font-family: 'InvolveReg', sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 100%; /* Межстрочный интервал */
+    letter-spacing: 0;
+    /* Дополнительные стили */
+    background: transparent; /* Прозрачный фон */
+    color: #0D0102; /* Цвет текста */
+    outline: none; /* Убираем обводку при фокусе */
+}
+
+.footer_form_submit
+{
+    width: 109px;
+    height: 37px;
+    box-sizing: border-box;
+    border: none;
+    border-top: 0.5px solid #0D0102;
+    border-bottom: 0.5px solid #0D0102;
+    padding: 5px;
+    margin-top: 8px;
+    font-family: 'InvolveMedium', sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+    background: transparent;
+    color: #0D0102;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.User_Agreement
+{
+    width: 473px;
+    height: 27px;
+    box-sizing: border-box;
+    font-family: 'InvolveReg', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #353130;
+    margin: 0px;
+    padding: 0px;
+}
+/* FOOTER CONTACT */
+.footer_contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 1392px;
+    width: 100%;
+    height: 101px;
+    box-sizing: border-box; /* Чтобы border не увеличивал размеры */
+    border-bottom: 0.5px solid #0D0102;
+    padding: 24px 0px 8px 0px;
+}
+.footer_contact p
+{
+    margin: 0px;
+    width: auto;
+    height: auto;
+    font-family: 'InvolveReg', sans-serif; /* Кастомный шрифт с запасным вариантом */
+    font-weight: 400; /* Вес шрифта */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 100%; /* Высота строки = размеру шрифта (16px) */
+    letter-spacing: 0px; /* Межбуквенный интервал */
+    color: #0D0102; /* Цвет текста (как в вашем логотипе) */
+}
+.footer_contact_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:end; /* Вертикальное выравнивание */
+    
+}
+.footer_contact_content_links
+{
+    width: 330px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 53px;
+    flex-direction: row;
+    align-items:center; /* Вертикальное выравнивание */
+    box-sizing: border-box;
+}
+
+.Links_svg
+{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 24px;
+    height: 24px;
+}
+
+
