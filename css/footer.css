@@ -1,34 +1,4 @@
 
-@font-face {
-    font-family: 'Kudry';
-    src: url('/css/font/kudry/Kudry-WeirdText.eot');
-    src: url('/css/font/kudry/Kudry-WeirdText.woff2') format('woff2');
-    src: url('/css/font/kudry/Kudry-WeirdText.woff') format('woff');
-    src: url('/css/font/kudry/Kudry-WeirdText.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'InvolveMedium';
-    src: url('/css/font/involve/Medium/InvolveMedium.eot');
-    src: url('/css/font/involve/Medium/InvolveMedium.woff2') format('woff2');
-    src: url('/css/font/involve/Medium/InvolveMedium.woff') format('woff');
-    src: url('/css/font/involve/Medium/InvolveMedium.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'InvolveReg';
-    src: url('/css/font/involve/regular/Involve-Regular.eot');
-    src: url('/css/font/involve/regular/Involve-Regular.woff2') format('woff2');
-    src: url('/css/font/involve/regular/Involve-Regular.woff') format('woff');
-    src: url('/css/font/involve/regular/Involve-Regular.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
 footer
 {
     display: flex;
