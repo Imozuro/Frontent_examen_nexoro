@@ -42,9 +42,30 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 
 /* Firefox */
 html, body {
-    scrollbar-width: none;
+    /* scrollbar-width: none; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 10000px;
+    
 }
 .content{
     height: 90%;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0px 24px 0px 24px;
+    box-sizing: border-box; /* Чтобы border не увеличивал размеры */
+    background-color: transparent
+}
+header
+{
+    background-color: transparent
+    
+}
+
+footer
+{
+    background-color: transparent
 }

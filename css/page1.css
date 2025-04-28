@@ -1,0 +1,44 @@
+.page1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.page1 p
+{
+    font-family: 'InvolveReg', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px;
+
+}
+.page1_p1
+{
+
+    margin: 50px 0px 0px 0px ;
+    width: 20%;
+    text-align: right;
+}
+#page1_logo
+{
+    margin: 100px 0px 0px 0px;
+    font-family: 'Kudry'; /* Указываем шрифт Kudry, fallback на sans-serif */
+    font-weight: 300; /* Толщина шрифта */
+    font-size: 64px; /* Размер шрифта */
+    line-height: 100%; /* Высота строки */
+    letter-spacing: 0%; /* Межбуквенный интервал */
+    color: #ffffff; /* Цвет текста (как в вашем логотипе) */
+    min-width: 154px;
+    z-index: 2;
+}
+.page1_p2
+{
+    margin: 150px 0px 0px 0px;
+    width: 20%;
+    text-align: left;
+}
+.page1 hr
+{
+    border: 0.01px solid #0D0102;
+}
