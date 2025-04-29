@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/page1.css">
+    <link rel="stylesheet" href="css/switch_buttons.css">
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
     <header>
@@ -43,6 +45,47 @@
                 <hr>
             </div>
         </div>
+        <div id="switch_buttons">
+            <button id="switch_buttons_1">
+                Для него
+            </button>
+            <button id="switch_buttons_2">
+                <p>Для нее</p>
+            </button>
+        </div>
+        
+
+        <div class="slider">
+            <div class="slides">
+                <!-- Баннер 1 -->
+                <div class="slide">
+                    <img src="img/Collection_img.png" alt="Collection 1">
+                    <div class="text">
+                        <h2>WILD ROSE</h2>
+                        <div>
+                            <p>Эта коллекция включает в себя современные и стильные наряды, которые подойдут для смелых и модных невест и женихов.</p>
+                            <p id="description">Платья и костюмы из этой коллекции имеют интересные детали, такие как разрезы, прозрачные вставки или асимметричные элементы, необычный крой. Такой образ добавит остринки торжеству и запомнится каждому</p>
+                        </div>
+                        <a href="">Перейти в каталог</a>
+                    </div>
+                </div>
+                <!-- Баннер 2 -->
+                <div class="slide">
+                    <img src="path/to/image2.jpg" alt="Collection 2">
+                    <div class="text">
+                        <h2>Collection 2</h2>
+                        <p>Описание коллекции 2...</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Кнопки для переключения -->
+        <div class="buttons">
+            <button class="prev" onclick="plusSlides(-1)"><img src="img/sliderbtn_l.svg" alt=""> </button>
+            <button class="next" onclick="plusSlides(1)"><img src="img/sliderbtn_r.svg" alt=""></button>
+        </div>
+
     </section>
     <footer>
             <div class="footer_content">
@@ -105,4 +148,5 @@
     </footer>
     <img class="background_img" src="img/background.svg" alt="">
 </body>
+<script src="js/slider.js"></script>
 </html>

@@ -1,0 +1,60 @@
+#switch_buttons
+{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 296px;
+    width: 100%;
+    min-height: 400px;
+
+}
+#switch_buttons_1
+{
+    background-image: url('/img/for_him.png');
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+    background-size: cover; /* Масштабирование изображения */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Без повторения */
+    border: none; /* Убрать стандартную рамку */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+    
+    font-family: 'InvolveReg';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #ffff;
+
+    padding-right: 104px;
+}    
+#switch_buttons_2
+{
+    background-image: url('/img/for_her.png');
+    text-align: right;
+    align-items: center;
+    width: 100%;
+    height: auto;
+
+    background-size: cover; /* Масштабирование изображения */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Без повторения */
+    border: none; /* Убрать стандартную рамку */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Курсор при наведении */
+
+    font-family: 'InvolveReg';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #ffff;
+
+    padding-right: 104px;
+}
