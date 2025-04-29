@@ -11,7 +11,7 @@
 }
 #switch_buttons_1
 {
-    background-image: url('/img/for_him.png');
+    background-image: url('../img/for_him.jpg');
     align-items: center;
     width: 100%;
     height: auto;
@@ -35,7 +35,7 @@
 }    
 #switch_buttons_2
 {
-    background-image: url('/img/for_her.png');
+    background-image: url('../img/for_her.jpg');
     text-align: right;
     align-items: center;
     width: 100%;

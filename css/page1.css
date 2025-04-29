@@ -12,13 +12,16 @@
     line-height: 100%;
     letter-spacing: 0%;
     margin: 0px;
-
+    border-bottom: 0.5px solid #250105;
+    line-height: 50px;
 }
 .page1_p1
 {
-    margin: 180px 0px 0px 0px ;
+    margin: 150px 0px 0px 0px ;
     width: 20%;
     text-align: right;
+    color: #250105;
+    
 }
 #page1_logo
 {
@@ -37,8 +40,15 @@
     margin: 450px 0px 0px 0px;
     width: 20%;
     text-align: left;
+    color: #64151B;
+    
 }
 .page1 hr
 {
     border: 0.01px solid #0D0102;
+}
+
+#p2
+{
+    border-color: #64151B;
 }
