@@ -15,22 +15,13 @@
 }
 .page1_p1
 {
-
-<<<<<<< HEAD
-    margin: 50px 0px 0px 0px ;
-=======
     margin: 180px 0px 0px 0px ;
->>>>>>> leha_branch
     width: 20%;
     text-align: right;
 }
 #page1_logo
 {
-<<<<<<< HEAD
-    margin: 100px 0px 0px 0px;
-=======
     margin: 270px 0px 0px 0px;
->>>>>>> leha_branch
     font-family: 'Kudry'; /* Указываем шрифт Kudry, fallback на sans-serif */
     font-weight: 300; /* Толщина шрифта */
     font-size: 64px; /* Размер шрифта */
@@ -42,11 +33,7 @@
 }
 .page1_p2
 {
-<<<<<<< HEAD
-    margin: 150px 0px 0px 0px;
-=======
     margin: 450px 0px 0px 0px;
->>>>>>> leha_branch
     width: 20%;
     text-align: left;
 }

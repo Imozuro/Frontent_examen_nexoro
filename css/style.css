@@ -1,16 +1,9 @@
 @font-face {
     font-family: 'Kudry';
-<<<<<<< HEAD
-    src: url('./font/kudry/Kudry-WeirdText.eot');
-    src: url('./font/kudry/Kudry-WeirdText.woff2') format('woff2');
-    src: url('./font/kudry/Kudry-WeirdText.woff') format('woff');
-    src: url('./font/kudry/Kudry-WeirdText.ttf') format('truetype');
-=======
     src: url('./font/kudry/KudryWeirdHeadline.eot');
     src: url('./font/kudry/KudryWeirdHeadline.woff2') format('woff2');
     src: url('./font/kudry/KudryWeirdHeadline.woff') format('woff');
     src: url('./font/kudry/KudryWeirdHeadline.ttf') format('truetype');
->>>>>>> leha_branch
     font-weight: 300;
     font-style: normal;
 }
@@ -54,11 +47,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-<<<<<<< HEAD
-    height: 10000px;
-=======
     height: 6300px;
->>>>>>> leha_branch
     
 }
 .content{
@@ -80,9 +69,6 @@ footer
 {
     background-color: transparent
 }
-<<<<<<< HEAD
-=======
-
 .background_img
 {
     max-width: 100%;
@@ -93,4 +79,3 @@ footer
     align-self: center;
 
 }
->>>>>>> leha_branch
