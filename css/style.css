@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Kudry';
+    src: url('./font/kudry/KudryWeirdHeadline.eot');
+    src: url('./font/kudry/KudryWeirdHeadline.woff2') format('woff2');
+    src: url('./font/kudry/KudryWeirdHeadline.woff') format('woff');
+    src: url('./font/kudry/KudryWeirdHeadline.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'InvolveMedium';
+    src: url('./font/involve/Medium/InvolveMedium.eot');
+    src: url('./font/involve/Medium/InvolveMedium.woff2') format('woff2');
+    src: url('./font/involve/Medium/InvolveMedium.woff') format('woff');
+    src: url('./font/involve/Medium/InvolveMedium.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'InvolveReg';
+    src: url('./font/involve/regular/Involve-Regular.eot');
+    src: url('./font/involve/regular/Involve-Regular.woff2') format('woff2');
+    src: url('./font/involve/regular/Involve-Regular.woff') format('woff');
+    src: url('./font/involve/regular/Involve-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+html, body {
+    overflow-y: auto;
+    height: 100vh;
+    margin: 0;
+    }
+
+/* WebKit */
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Firefox */
+html, body {
+    /* scrollbar-width: none; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 6300px;
+    
+}
+.content{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 0px 24px 0px 24px;
+    box-sizing: border-box; /* Чтобы border не увеличивал размеры */
+    background-color: transparent
+}
+header
+{
+    background-color: transparent
+    
+}
+
+footer
+{
+    background-color: transparent
+}
+
+.background_img
+{
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+    position:absolute; 
+    width: auto; 
+    align-self: center;
+
+}
