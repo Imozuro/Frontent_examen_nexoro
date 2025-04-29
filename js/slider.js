@@ -17,3 +17,6 @@ function showSlides(n) {
     let slidesContainer = document.querySelector('.slides');
     slidesContainer.style.transform = `translateX(-${(slideIndex - 1) * 100}%)`;
 }
+
+
+

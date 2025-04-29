@@ -102,7 +102,7 @@
     background: none;
     border: none; /* Убрать стандартную рамку */
     cursor: pointer; /* Курсор при наведении */
-    padding: 10px;
+    padding: 8px;
 }
 .buttons img
 {
