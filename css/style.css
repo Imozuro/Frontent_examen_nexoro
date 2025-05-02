@@ -27,6 +27,15 @@
     font-weight: 300;
     font-style: normal;
 }
+@font-face {
+    font-family:'GellaMed';
+    src: url('./font/GellaMed/GellaMed.eot');
+    src: url('./font/GellaMed/GellaMed.woff2') format('woff2');
+    src: url('./font/GellaMed/GellaMed.woff') format('woff');
+    src: url('./font/GellaMed/GellaMed.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
 
 
 html, body {
@@ -81,6 +90,14 @@ footer
 
 }
 
+.page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
 #collection_h2
 {
     font-family: 'InvolveMedium', sans-serif;
@@ -95,5 +112,22 @@ footer
     color: #250105;
     margin-right: auto;
     margin-left: 0;
+    margin-top: 200px;
+}
+
+#dress_silhouettes_h2
+{
+    font-family: 'InvolveMedium', sans-serif;
+    font-weight: 500px;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-bottom: 0.5px solid #250105;
+    line-height: 50px;
+    width: 504px;
+    text-align: left;
+    color: #250105;
+    margin-right: 0px;
+    margin-left: auto;
     margin-top: 200px;
 }

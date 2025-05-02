@@ -1,0 +1,109 @@
+.container_dress_silhouettes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F5F5F7;
+    padding: 50px 50px 0px 50px ;
+    margin-top: 55px;
+    box-shadow: 0px 4px 80px 0px #25010556;
+
+  }
+  .dress_div
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 60%;
+  }
+
+  .dress_div #header_p
+  {
+    color: #9A9292;
+  }
+  
+
+  .header_dress_silhouettes {
+    font-size: 18px;
+    color: #333;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: auto;
+  }
+
+  .item img {
+    width: 330px;
+    height: auto;
+  }
+
+  .item .dress_silhouettes_name{
+    font-family: "GellaMed";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+  }
+  .container_dress_silhouettes p 
+  {
+    font-family: 'InvolveReg';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    
+  }
+
+  /* Третьк платье по центиру */
+  .dress3{
+    position: absolute;
+    align-items: center;
+    margin-top: 15%;
+  }
+
+
+  /* Стили для подсказки */
+  .tooltip {
+    width: 330px;
+    height: 80px;
+    gap: 16px;
+    padding-top: 16px;
+    padding-right: 56px;
+    padding-bottom: 16px;
+    padding-left: 56px;
+    position: relative;
+    visibility: hidden;
+
+  }
+
+  .tooltip img {
+    width: 48px;
+    height: 48px;
+    
+  }
+  /**/
+  .item:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    z-index: 10;
+
+    position: relative;
+    top: -200px;
+    animation: slideUp 0.5s ease-out forwards;
+  }
+  @keyframes slideUp {
+    0% {
+      transform: translateY(20px); 
+      opacity: 0; 
+    }
+    100% {
+      transform: translateY(0); 
+      opacity: 1;
+    }
+  }

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/page1.css">
     <link rel="stylesheet" href="css/switch_buttons.css">
     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/dress_silhouetters.css">
 </head>
 <body>
     <header>
@@ -53,39 +54,116 @@
                 <p>Для нее</p>
             </button>
         </div>
-        
-        <h2 id="collection_h2">КОЛЛЕКЦИИ</h2>
-        <div class="slider">
-
-            <div class="slides">
-                <!-- Баннер 1 -->
-                <div class="slide">
-                    <img src="img/Collection_img.png" alt="Collection 1">
-                    <div class="text">
-                        <h2>WILD ROSE</h2>
-                        <div>
-                            <p>Эта коллекция включает в себя современные и стильные наряды, которые подойдут для смелых и модных невест и женихов.</p>
-                            <p id="description">Платья и костюмы из этой коллекции имеют интересные детали, такие как разрезы, прозрачные вставки или асимметричные элементы, необычный крой. Такой образ добавит остринки торжеству и запомнится каждому</p>
+        <section class="page">
+            <h2 id="collection_h2">КОЛЛЕКЦИИ</h2>
+            <div class="slider">
+                <div class="slides">
+                    <!-- Баннер 1 -->
+                    <div class="slide">
+                        <img src="img/Collection_img.png" alt="Collection 1">
+                        <div class="text">
+                            <h2>WILD ROSE</h2>
+                            <div>
+                                <p>Эта коллекция включает в себя современные и стильные наряды, которые подойдут для смелых и модных невест и женихов.</p>
+                                <p id="description">Платья и костюмы из этой коллекции имеют интересные детали, такие как разрезы, прозрачные вставки или асимметричные элементы, необычный крой. Такой образ добавит остринки торжеству и запомнится каждому</p>
+                            </div>
+                            <a href="">Перейти в каталог</a>
                         </div>
-                        <a href="">Перейти в каталог</a>
                     </div>
-                </div>
-                <!-- Баннер 2 -->
-                <div class="slide">
-                    <img src="img/sveps-vreisatiiausapca.gif" alt="Collection 2">
-                    <div class="text">
-                        <h2>Collection 2</h2>
-                        <p>Описание коллекции 2...</p>
+                    <!-- Баннер 2 -->
+                    <div class="slide">
+                        <img src="img/sveps-vreisatiiausapca.gif" alt="Collection 2">
+                        <div class="text">
+                            <h2>Collection 2</h2>
+                            <p>Описание коллекции 2...</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            
-        </div>
-        <!-- Кнопки для переключения -->
-        <div class="buttons">
-            <button class="prev" onclick="plusSlides(-1)"><img src="img/sliderbtn_l.svg" alt=""> </button>
-            <button class="next" onclick="plusSlides(1)"><img src="img/sliderbtn_r.svg" alt=""></button>
-        </div>
+            <!-- Кнопки для переключения -->
+            <div class="buttons">
+                <button class="prev" onclick="plusSlides(-1)"><img src="img/sliderbtn_l.svg" alt=""> </button>
+                <button class="next" onclick="plusSlides(1)"><img src="img/sliderbtn_r.svg" alt=""></button>
+            </div>
+        </section>
+
+        <section class="page">
+            <h2 id="dress_silhouettes_h2">СИЛУЭТЫ ПЛАТЬЕВ</h2>
+
+            <div class="container_dress_silhouettes">
+                
+                <div class="dress_div">
+                    <div class="item" >
+                        <img src="img/dress_form/dress1.svg" alt="Русалка">
+                        <p class="dress_silhouettes_name">Русалка</p>
+                        <p>Узкое облегающее платье с юбкой расклешенной у колена</p>
+
+                        <div class="tooltip">
+                            <img src="img/dress_form/form/Apple.svg" alt="Груша">
+                            <img src="img/dress_form/form/hourglass.svg" alt="Песочные часы">
+                        </div>
+                    </div>
+                    <p id="header_p">Наведите на платье, чтобы узнать какому типу фигуры силуэт подходит
+                        <br>
+                        (расшифровка иконок ниже)
+                    </p>
+                    <div class="item">
+                        <img src="img/dress_form/dress2.svg" alt="А-силуэт">
+                        <p class="dress_silhouettes_name">А-силуэт</p>
+                        <p>Платье с А-образной формой юбки, плавно спускающейся к полу от топа</p>
+
+                        <div class="tooltip">
+                            <img src="img/dress_form/form/Apple.svg" alt="Яблоко">
+                            <img src="img/dress_form/form/hourglass.svg" alt="Песочные часы">
+                            <img src="img/dress_form/form/square.svg" alt="Прямоугольник">
+                            <img src="img/dress_form/form/inverted_triangle.svg" alt="Перевернутый треугольник">
+                        </div>
+                    </div>
+                </div>
+                <div class="item dress3">
+                    <img src="img/dress_form/dress3.svg" alt="Пышное">
+                    <p class="dress_silhouettes_name">Пышное</p>
+                    <p>Платье с узким облигающим лифом и пышной многослойной юбкой</p>
+
+                    <div class="tooltip">
+                        <img src="img/dress_form/form/pear.svg" alt="Груша">
+                        <img src="img/dress_form/form/hourglass.svg" alt="Песочные часы">
+                        <img src="img/dress_form/form/square.svg" alt="Прямоугольник">
+                        <img src="img/dress_form/form/inverted_triangle.svg" alt="Перевернутый треугольник">
+                    </div>
+                </div>
+                <div class="dress_div">
+                    <div class="item">
+                        <img src="img/dress_form/dress4.svg" alt="Прямое">
+                        <p class="dress_silhouettes_name">Прямое</p>
+                        <p>Повторяющее силэт платье с небольшим расширением снизу</p>
+
+                        <div class="tooltip">
+                            <img src="img/dress_form/form/pear.svg" alt="Груша">
+                            <img src="img/dress_form/form/hourglass.svg" alt="Песочные часы">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/dress_form/dress5.svg" alt="Ампир">
+                        <p class="dress_silhouettes_name">Ампир</p>
+                        <p>Вертикальные ниспадающие складки и завышенная талия, греческий стиль</p>
+
+                        <div class="tooltip">
+                            <img src="img/dress_form/form/pear.svg" alt="Груша">
+                            <img src="img/dress_form/form/hourglass.svg" alt="Песочные часы">
+                            <img src="img/dress_form/form/square.svg" alt="Прямоугольник">
+                            <img src="img/dress_form/form/Apple.svg" alt="Яблоко">
+
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </section>
+        
+
+
+
+
 
     </section>
     <footer>
