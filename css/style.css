@@ -56,7 +56,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 6300px;
+    height: 5940px;
     
 }
 .content{
@@ -100,7 +100,7 @@ footer
 
 #collection_h2
 {
-    font-family: 'InvolveMedium', sans-serif;
+    font-family: 'InvolveReg', sans-serif;
     font-weight: 500px;
     font-size: 35px;
     line-height: 100%;
@@ -112,7 +112,8 @@ footer
     color: #250105;
     margin-right: auto;
     margin-left: 0;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: -30px;
 }
 
 #dress_silhouettes_h2
@@ -129,5 +130,6 @@ footer
     color: #250105;
     margin-right: 0px;
     margin-left: auto;
-    margin-top: 200px;
+    margin-top: 90px;
+    margin-bottom: -5px;
 }

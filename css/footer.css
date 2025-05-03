@@ -5,6 +5,7 @@ footer
     width: auto;
     margin: 0px 24px 40px 24px;
     box-sizing: border-box; /* Чтобы border не увеличивал размеры */
+    align-items:center;
 }
 .footer_content
 {

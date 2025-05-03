@@ -18,17 +18,23 @@
     min-width: 60%;
   }
 
+
   .dress_div #header_p
   {
     color: #9A9292;
 
   }
-  
+
+  #dress_silhouettes_h2
+  {
+    font-family: 'InvolveReg';
+  }
 
   .header_dress_silhouettes {
     font-size: 18px;
     color: #333;
   }
+
   .item {
     display: flex;
     flex-direction: column;
@@ -48,6 +54,7 @@
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0%;
+    color: #250105;
     
   }
   .container_dress_silhouettes p 
@@ -59,6 +66,7 @@
     letter-spacing: 0%;
     text-align: center;
     margin: 5px;
+    color: #250105;
     
   }
 
@@ -139,6 +147,7 @@
   display: flex;
   flex-direction: column;
   padding: 25px;
+  color: #250105;
 }
 .shapes_of_figures_text p {
   font-family: "InvolveReg";
