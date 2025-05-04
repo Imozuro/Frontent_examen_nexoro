@@ -1,0 +1,108 @@
+
+.info_page
+{
+    background-image: url("/img/background_info.png");
+    background-size:cover;
+    background-position: center;
+    max-width: 90%;
+    min-height: 732px;
+    padding: 100px;
+    gap:50px;
+    text-align: center;
+    color: white;
+    
+}
+.info_page_logo{
+    font-family: Kudry;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+
+}
+
+.info_page_headline
+{
+    font-family: "GellaMed";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0px;
+    
+}
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    width: 600px;
+  }
+
+  .radio-buttons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .radio-buttons input[type="radio"] {
+    display: none;
+  }
+
+  .radio-buttons label {
+    font-family: "InvolveReg";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .radio-buttons .custom-radio {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: background 0.3s;
+    margin-bottom: 5px;
+  }
+
+  .radio-buttons input[type="radio"]:checked + label .custom-radio {
+    background: white;
+  }
+
+  .info_page_content{
+
+    font-family: "InvolveReg";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    
+    display: none;
+    width: 684px;
+  }
+  .info_page_content.active {
+    display: block;
+  }
+  .learn-more {
+    margin-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: "InvolveReg";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    
+  }

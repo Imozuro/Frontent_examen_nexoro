@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/switch_buttons.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/dress_silhouetters.css">
+    <link rel="stylesheet" href="css/info_page.css">
+
 </head>
 <body>
     <header>
@@ -62,7 +64,7 @@
                     <div class="slide">
                         <img src="img/Collection_img.png" alt="Collection 1">
                         <div class="text">
-                            <h2 id="WildRose">WILD ROSE</h2>
+                            <h3 id="WildRose">WILD ROSE</h3>
                             <div>
                                 <p id="p_WildRose">Эта коллекция включает в себя современные и стильные наряды, которые подойдут для смелых и модных невест и женихов.</p>
                                 <p id="description">Платья и костюмы из этой коллекции имеют интересные детали, такие как разрезы, прозрачные вставки или асимметричные элементы, необычный крой. Такой образ добавит остринки торжеству и запомнится каждому</p>
@@ -86,6 +88,7 @@
                 <button class="next" onclick="plusSlides(1)"><img src="img/sliderbtn_r.svg" alt=""></button>
             </div>
         </section>
+
         <section class="page">
             <h2 id="dress_silhouettes_h2">СИЛУЭТЫ ПЛАТЬЕВ</h2>
 
@@ -200,13 +203,31 @@
                 </div>
             </div>
         </section>
-        
-        
+        <section class="page info_page">
+            <div>
+                <p class="info_page_logo">Empire of Love</p>
+                <p class="info_page_headline">СКАЗКА ДЛЯ ДВОИХ</p>
+            </div>
 
-
-
-
-
+            <div class="radio-buttons">
+                <div>
+                  <input type="radio" id="option1" name="option" checked>
+                  <label for="option1"><span class="custom-radio"></span>О бренде</label>
+                </div>
+                <div>
+                  <input type="radio" id="option2" name="option">
+                  <label for="option2"><span class="custom-radio"></span>Производство</label>
+                </div>
+                
+            </div>
+              <div class="info_page_content" id="info_page_content1">
+                Каждая свадьба – это особенное событие, начало нового, радостного и волнующего пути. Мы стремимся помочь каждой паре воплотить свою мечту в реальность, создавая уникальные и незабываемые образы, которые будут отражать их индивидуальность и чувства.
+              </div>
+              <div class="info_page_content" id="info_page_content2">
+                <p>У нас работаю дизайнеры, являющиеся одними из лучших в мире. Так же мы сотрудничаем с лучшими производителями тканей</p>
+              </div>
+              <a class="learn-more">Узнать подробнее</a>
+        </section>
     </section>
     <footer>
             <div class="footer_content">
@@ -269,6 +290,9 @@
     </footer>
     <img class="background_img" src="img/background.svg" alt="">
 </body>
+<script src="js/info_page.js"></script>
 <script src="js/slider.js"></script>
 <script src="js/no_zoom.js"></script>
+
+
 </html>
