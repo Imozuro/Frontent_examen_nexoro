@@ -1,7 +1,7 @@
 
 .info_page
 {
-    background-image: url("/img/background_info.png");
+    background-image: url("../img/background_info.png");
     background-size:cover;
     background-position: center;
     max-width: 90%;
@@ -13,7 +13,7 @@
     
 }
 .info_page_logo{
-    font-family: Kudry;
+    font-family: 'Kudry';
     font-weight: 300;
     font-size: 48px;
     line-height: 100%;

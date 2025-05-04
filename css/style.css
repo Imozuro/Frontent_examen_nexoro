@@ -56,7 +56,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: auto;
+    height: 6020px;
     
 }
 .content{
