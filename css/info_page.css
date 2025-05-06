@@ -1,7 +1,7 @@
 
 .info_page
 {
-    background-image: url("/img/background_info.png");
+    background-image: url("../img/background_info.png");
     background-size:cover;
     background-position: center;
     max-width: 90%;
