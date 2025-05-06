@@ -1,0 +1,67 @@
+.bestseller
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 56px;
+
+}
+
+.Product_card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Product_card_img
+{
+    width: 282px;
+    height: 392px;
+    /* box-sizing: border-box; */
+    padding: 16px 24px 16px 24px;
+    border: 1px solid black;
+    margin-bottom: 32px;
+}
+.Product_card_description
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Product_card_description_text
+{
+    display: flex;
+    flex-direction: column;
+}
+.Product_card_description_name
+{
+    font-family:'GellaMed';
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #250105;
+    margin: 0px;
+}
+.Product_card_description_sale
+{
+    
+    font-family:'InvolveReg';
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #250105;
+    margin: 0px;
+}
+.Product_card_description_like
+{
+    width: 20px;
+    height: 18px;
+    top: 3px;
+    left: 2px;
+    border-width: 1px;
+    margin: 0px;
+    
+}
